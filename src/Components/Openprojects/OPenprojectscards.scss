@@ -1,0 +1,221 @@
+@import url('/node_modules/bootstrap/scss/bootstrap.scss');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .LogoImage{
+    padding-left: 20px;
+  }
+  .Height{
+
+    width: 80px;
+  height: 41px;
+  
+  background: #E6FBE6;
+  border: 1px solid #04D400!important;
+  box-sizing: border-box;
+  border-radius: 40px;
+  color: #04D500!important;
+  }
+  .open{
+    padding-right: 26px;
+  }
+  .Pool{
+    font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  
+  
+  color: #999EA7;
+  }
+  .progress-bar{
+    background-color:#F05850!important;
+    border-radius: 20px!important;
+    
+  height: 17px!important;
+  
+  }
+  .progress{
+    background: #FFEEEE!important;
+  border-radius: 20px;;
+  }
+
+.Project:hover{
+  border: 2px solid red;
+}
+.Project{
+ 
+  background: #FFFFFF;
+  
+/* Shadow */
+
+box-shadow: 0px 4px 30px rgba(31, 165, 255, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 30px;
+  
+}
+.yay{
+  font-family: Rubik;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #F05850;
+}
+.Fauser{
+  padding-left: 25px;
+}
+
+.icoin{
+  color: #F05850;
+  background: #EFF6FF;
+border-radius: 30px;
+width: 30px;
+height: 30px;
+display: flex;
+justify-content: center;
+padding-top: 5px;
+
+}
+.Pert{
+  h6 {
+   font-family: Rubik;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 70%;
+ /* or 23px */
+ padding-left: 10px;
+ 
+ color: #4D5D76;
+ 
+   }
+   .para{
+  @extend .yay;
+ 
+ /* or 23px */
+ 
+ 
+ color: #000000;
+   }
+ }
+ .Number{
+   color: #F05850!important;
+ }
+ .Pert2{
+   background: #FFF4F3;
+   h6{
+     color: #4D5D76;
+     @extend .Pert;
+     
+     
+     
+   }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .head1 {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px!important;
+      line-height: 20px!important;
+      text-align: center;
+      color: #212121;
+  }
+  .head2{
+    @extend .head1;
+    color: #e06158;
+  }
+  .Radius {
+   
+    font-size: 12px!important;
+    padding: 8px 7px 10px 3px!important;
+  
+  }
+  
+  .avatar {
+   
+    width: 40px!important;
+    height: 40px!important;
+    
+  }
+  .Height {
+    width: 50px!important;
+    height: 32px!important;
+  }
+  .open{
+    padding-right: 0px!important;
+   
+  }
+  .Pert{
+    h6 {
+     font-family: Rubik;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px!important;
+   line-height: 70%;
+   /* or 23px */
+   
+   padding-left: 5px!important;
+   color: #000000;
+   
+     }
+   }
+   .para{
+    font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px!important;
+  }
+  .icoin{
+    color: #F05850;
+    background: #EFF6FF;
+  border-radius: 30px;
+  width: 15px!important;
+  height: 15px!important;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  font-size: 12px!important;
+  
+  }
+  .Access{
+    h6{
+      font-size: 12px!important;
+      padding-left: 5px!important;
+    }
+  }
+  .LogoImage{
+    padding-left: 0px!important;
+  }
+  .Fauser{
+    padding-left: 0px!important ;
+  }
+  .But{
+    font-size: 16px!important;
+  }
+  .Protocol{
+    width: 30%;
+   display: none;
+  }
+  .Height1{
+  height: 40px;
+  width: 200px;
+  }
+   }

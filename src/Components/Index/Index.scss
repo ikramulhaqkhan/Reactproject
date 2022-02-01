@@ -1,0 +1,363 @@
+@import url('/node_modules/bootstrap/scss/bootstrap.scss');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Background_image{
+  background-image: url('/assets/Images/Group\ 20.svg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: right;
+  
+
+}
+
+
+.some{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 10px!important;
+}
+.Radius{
+  border-radius: 25px;
+  background: #F05850;
+  font-family: Rubik;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+padding: 10px 20px 10px 20px;
+
+
+color: #FFFFFF;
+}
+.head1{
+  font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 65px;
+text-align: center;
+
+color: #212121;
+}
+.head2{
+  @extend .head1;
+  color: #e06158;
+}
+.paragraph{
+  color: #4D5D76;
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+
+text-align: center;
+}
+.Fauser{
+  padding-left: 25px;
+}
+
+.icoin{
+  color: #F05850;
+  background: #EFF6FF;
+border-radius: 30px;
+width: 30px;
+height: 30px;
+display: flex;
+justify-content: center;
+padding-top: 5px;
+
+}
+.Red{
+  color: #F05850;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.Project:hover{
+  border: 2px solid red;
+}
+.Project{
+ 
+  background: #FFFFFF;
+  
+/* Shadow */
+
+box-shadow: 0px 4px 30px rgba(31, 165, 255, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 30px;
+  
+}
+.progress-bar{
+  background-color:#F05850!important;
+  border-radius: 20px!important;
+  
+height: 17px!important;
+
+}
+.progress{
+  background: #FFEEEE!important;
+border-radius: 20px;;
+}
+button{
+  box-shadow: none!important;
+  border: none!important;
+  
+
+}
+
+.card-body{
+  p{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 130%;
+/* or 21px */
+
+
+color: #4D5D76;
+  }
+  h6{
+   @extend .card-body;
+/* identical to box height, or 21px */
+
+
+color: #F05850;
+  }
+}
+
+.Height1{
+
+  width: 110px;
+  height: 40px;
+
+background: #E6FBE6;
+border: 1px solid#F05850!important;
+box-sizing: border-box;
+border-radius: 30px;
+color:#F05850!important;
+}
+.Height2{
+
+  width: 90px;
+  height: 40px;
+
+background: #E6FBE6;
+border: 1px solid#F05850!important;
+box-sizing: border-box;
+border-radius: 30px;
+color:#F05850!important;
+}
+
+.open{
+  padding-right: 26px;
+}
+
+.Pool{
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+
+
+color: #999EA7;
+}
+.yay{
+  font-family: Rubik;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #F05850;
+}
+.Pert{
+ h6 {
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 70%;
+/* or 23px */
+padding-left: 10px;
+
+color: #4D5D76;
+
+  }
+  .para{
+ @extend .yay;
+
+/* or 23px */
+
+
+color: #000000;
+  }
+}
+.Number{
+  color: #F05850!important;
+}
+.Pert2{
+  background: #FFF4F3;
+  h6{
+    color: #4D5D76;
+    @extend .Pert;
+    
+    
+    
+  }
+
+}
+.libero{
+  background: #FFFFFF;
+/* Shadow */
+
+box-shadow: 0px 4px 30px rgba(31, 165, 255, 0.1);
+border-radius: 10px;
+border: none!important;
+}
+.Background{
+  background: #F05850;
+border-radius: 20px;
+
+}
+.Button{
+  button{
+    background: #000000;
+    border-radius: 60px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+  }
+
+}
+.But{
+  span{
+    color: #df6452;
+  }
+
+}
+
+.Protocol{
+  margin-left: 30%;
+}
+.Prot{
+  width: 80%;
+}
+ @media only screen and (min-width: 320px) and (max-width: 768px) {
+  .head1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px!important;
+    line-height: 20px!important;
+    text-align: center;
+    color: #212121;
+}
+.head2{
+  @extend .head1;
+  color: #e06158;
+}
+.Radius {
+ 
+  font-size: 12px!important;
+  padding: 8px 7px 10px 3px!important;
+
+}
+.paragraph{
+  color: #4D5D76;
+  font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px!important;
+line-height: 135%;
+/* or 24px */
+
+text-align: center;
+}
+.avatar {
+ 
+  width: 40px!important;
+  height: 40px!important;
+  
+}
+.Height {
+  width: 50px!important;
+  height: 32px!important;
+}
+.open{
+  padding-right: 0px!important;
+ 
+}
+.Pert{
+  h6 {
+   font-family: Rubik;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 12px!important;
+ line-height: 70%;
+ /* or 23px */
+ 
+ padding-left: 5px!important;
+ color: #000000;
+ 
+   }
+ }
+ .para{
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 9px!important;
+}
+.icoin{
+  color: #F05850;
+  background: #EFF6FF;
+border-radius: 30px;
+width: 15px!important;
+height: 15px!important;
+display: flex;
+justify-content: center;
+padding-top: 5px;
+font-size: 12px!important;
+
+}
+.Access{
+  h6{
+    font-size: 12px!important;
+    padding-left: 5px!important;
+  }
+}
+.LogoImage{
+  padding-left: 0px!important;
+}
+.Fauser{
+  padding-left: 0px!important ;
+}
+.But{
+  font-size: 16px!important;
+}
+.Protocol{
+  width: 30%;
+ display: none;
+}
+.Height1{
+height: 40px;
+width: 200px;
+}
+ }
+@media only screen and (min-width: 768px){
+
+}
