@@ -129,25 +129,7 @@ padding-top: 5px;
    }
   }
   @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .head1 {
-      font-family: Rubik;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 20px!important;
-      line-height: 20px!important;
-      text-align: center;
-      color: #212121;
-  }
-  .head2{
-    @extend .head1;
-    color: #e06158;
-  }
-  .Radius {
-   
-    font-size: 12px!important;
-    padding: 8px 7px 10px 3px!important;
-  
-  }
+
   
   .avatar {
    

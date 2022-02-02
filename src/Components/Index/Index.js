@@ -8,7 +8,7 @@ function Index() {
     <>
       
       <div className='container mt-5 mb-5'>
-        <div className='row heading'>
+        <div className='row '>
           <div className='col-lg-12 col-sm-12 col-xl-12 ms-auto me-auto text-center'> <h1 className='head1'>Launchpad ipsam quia dolor</h1>
             <h1 className='head2'>voluptas sit aspernatur</h1>
           </div>
