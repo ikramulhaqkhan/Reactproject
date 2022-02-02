@@ -46,6 +46,7 @@ color: #F05850;
 .mid{
     ul{ column-gap: 20px;
         li{
+            @extend .Connect;
             background: #FFFFFF;
             /* Shadow */
             
