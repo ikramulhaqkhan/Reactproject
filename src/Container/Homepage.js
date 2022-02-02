@@ -13,12 +13,12 @@ import './Homepage.scss'
 function Homepage() {
   return (
     <div >
-      <div className=''>
+     
       <Header/>
       <Index/>
       
       <Participatecards/>
-      </div>
+      
       <Openprojectscards/>
       <Footer/>
       </div>
